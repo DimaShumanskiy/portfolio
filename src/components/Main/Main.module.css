@@ -1,0 +1,27 @@
+.wrapper {
+  max-width: 1100px;
+  min-height: 300px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  padding: 30px 30px;
+  /*display: flex;*/
+  /*align-items: center;*/
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  border: 2px red solid;
+  text-align: left;
+}
+
+.photo {
+  display: block;
+  width: 200px;
+  min-height: 300px;
+  border: 2px solid red;
+}
