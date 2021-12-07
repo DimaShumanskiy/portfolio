@@ -1,0 +1,36 @@
+.wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: royalblue;
+  padding: 15px 15px;
+}
+.form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px red solid;
+
+}
+.inputName, .inputMail, .inputText{
+  min-height: 30px;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid darkgoldenrod;
+}
+
+.inputText{
+  min-height: 100px ;
+}
+@media (max-width: 400px) {
+  .inputName,.inputMail, .inputText{
+    width: 100%;
+  }
+}
+.title{
+
+}
+.btm{
+
+}
